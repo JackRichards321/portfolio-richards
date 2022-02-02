@@ -5,14 +5,15 @@ import Contact from './Contact.js';
 import RCV from './RCV.js';
 import AudioViz from './AudioViz';
 import ToT from './ToT.js';
-import About from "./about.js"
+import About from "./About.js"
+import AboutLanding from './AboutLanding.js';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './styles.css';
 
 const Landing = () => {
   return (
     <div>
-      <About />
+      <AboutLanding />
       <ProjectList />
     </div>
   );
