@@ -3,8 +3,8 @@ import NavBar from './NavBar.js';
 import ProjectList from './ProjectList.js';
 import Contact from './Contact.js';
 import RCV from './RCV.js';
-import AudioViz from './AudioViz';
-import ToT from './ToT.js';
+import CreatureLab from './CreatureLab';
+import SpudClicker from './SpudClicker.js';
 import About from "./About.js"
 import AboutLanding from './AboutLanding.js';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -12,7 +12,7 @@ import './styles.css';
 
 const Landing = () => {
   return (
-    <div>
+    <div className="homePage">
       <AboutLanding />
       <ProjectList />
     </div>
@@ -30,8 +30,8 @@ function App() {
         <Route path='/project-list' element={<ProjectList />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/project-rcv' element={<RCV />} />
-        <Route path='/project-audio' element={<AudioViz />} />
-        <Route path='/project-tot' element={<ToT />} />
+        <Route path='/project-creature' element={<CreatureLab />} />
+        <Route path='/project-spud' element={<SpudClicker />} />
       </Routes>
     </Router>
   );

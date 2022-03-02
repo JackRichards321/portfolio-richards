@@ -10,15 +10,25 @@ export const projects = [
         key: 0,
     },
     {
-        title: "creatureLab",
+        title: "CreatureLab",
         subtitle: "Creative Drawing Experience",
         description:
             "My New Media Capstone project. Web based app built for Imagine RIT.",
         learned: "",
-        image: ".png",
-        link: "/",
+        image: "creaturelab-thumb.png",
+        link: "/project-creature",
         key: 1,
     },
+    {
+        title: "SpudClicker",
+        subtitle: "Xamarin Android App",
+        description:
+            "Counter game made in XAML Forms.",
+        image: "spudclicker-thumb2.png",
+        link: "/project-spud",
+        key: 2,
+    },
+    /*
     {
         title: "This or That?",
         subtitle: "Full-Stack Dynamic Site",
@@ -29,6 +39,7 @@ export const projects = [
         link: "https://jjr2098-domomaker-a.herokuapp.com/voter",
         key: 2,
     },
+    */
     /*
     {
         title: "Audio Visualizer",

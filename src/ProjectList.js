@@ -4,8 +4,7 @@ import { projects } from "./data.js"
 const ProjectList = () => {
     return (
         <section className="projects">
-            <div className="projectListBar">
-            </div>
+            <div className="projectListBar"></div>
             <div className="projectFrame">
             {projects.map((project) => (
                 <div key={project.key} className="projectDiv">

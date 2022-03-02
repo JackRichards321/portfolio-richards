@@ -3,17 +3,18 @@ general
 */
 body {
     
-    color: #1a2023;
+    color: white;
+    background-color: #1a2023;
+    margin: 0;
+    padding: 0;
 }
 
 h2 {
     color: #FA7A75;
 }
 
-
-.aboutDiv {
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,92,122,1) 46%, rgba(234,230,113,1) 61%, rgba(209,96,61,1) 82%, rgba(223,41,53,1) 100%);
+.homePage {
+    
 }
 
 
@@ -44,21 +45,6 @@ li a {
     color: white;
     text-decoration: none;
     align-self: baseline;
-}
-
-/*
-home
-*/
-.homeDiv {
-    display: flex;
-    align-items: center;
-
-    margin-top: 5px;
-}
-
-.homeP {
-    margin-left: 10px;
-    margin-right: 10px;
 }
 
 /*
@@ -104,7 +90,7 @@ projects
 */
 .projectDiv {
     background-color: #1a2023;
-    width: 33%;
+    width: 33.33%;
 }
 
 .projectComponents {
@@ -121,7 +107,7 @@ projects
 }
 
 .projectImgDiv {
-    height: 100px;
+    height: 150px;
 }
 
 .projects {
@@ -161,6 +147,7 @@ about
     margin-bottom: 50px;
 
     font-family: sans-serif;
+
 }
 
 .aboutDiv {
@@ -168,10 +155,13 @@ about
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
 
+    margin-bottom: 50px;
     font-family: sans-serif;
+
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(0,92,122,1) 46%, rgba(234,230,113,1) 61%, rgba(209,96,61,1) 82%, rgba(223,41,53,1) 100%);
+    color: #1a2023;
 }
 
 .aboutDivTop {
@@ -179,15 +169,21 @@ about
     justify-content: space-around;
     align-items: center;
     margin-bottom: 75px;
-    width: 100%;
+    width: 60%;
+    color: white;
 }
 
 .aboutDivMid {
-    border-top: 1px solid #FA7A75;
-    border-bottom: 1px solid #FA7A75;
+    border-top: 2px solid #FA7A75;
+    border-bottom: 2px solid #FA7A75;
     width: 70%;
     display: flex;
     justify-content: center;
+    background-color: white;
+}
+
+.aboutDivBot {
+    width: 70%;
 }
 
 .aboutR {
@@ -215,6 +211,27 @@ about
 .frisbeeP {
     margin-left: 10px;
     margin-right: 10px;
+    padding: 15px;
+    border-top: 2px solid #FA7A75;
+    border-bottom: 2px solid #FA7A75;
+    background-color: white;
+}
+
+.homeDiv {
+    display: flex;
+    align-items: center;
+
+    margin-top: 5px;
+}
+
+.homeP {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 15px;
+    background-color: white;
+    width: 50%;
+    border-top: 2px solid #FA7A75;
+    border-bottom: 2px solid #FA7A75;
 }
 
 
@@ -234,14 +251,63 @@ RCV
 }
 
 .rcvDiv {
-    width: 90%;
+    width: 45%;
     margin: auto;
     padding-top: 50px;
+
 }
 
 .rcvImage {
     border: 1px solid #1a2023;
+    width: 17em;
 }
+
+.rcvImageWide {
+    border: 1px solid #1a2023;
+    width: 25em;
+}
+
+/*
+CreatureLab
+*/
+.creatureDiv {
+    width: 45%;
+    margin: auto;
+    padding-top: 50px;
+
+}
+
+.creatureImage {
+    border: 1px solid #1a2023;
+    width: 17em;
+}
+
+.creatureImageWide {
+    border: 1px solid #1a2023;
+    width: 25em;
+}
+
+/*
+SpudClicker
+*/
+.spudDiv {
+    width: 45%;
+    margin: auto;
+    padding-top: 50px;
+
+}
+
+.spudImage {
+    border: 1px solid #1a2023;
+    
+}
+
+.spudImageBottom {
+    position: relative;
+    bottom: 220px;
+    margin-bottom: -220px;
+}
+
 
 
 /*
