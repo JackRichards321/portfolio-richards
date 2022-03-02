@@ -259,12 +259,12 @@ RCV
 
 .rcvImage {
     border: 1px solid #1a2023;
-    width: 17em;
+    width: 300px;
 }
 
 .rcvImageWide {
     border: 1px solid #1a2023;
-    width: 25em;
+    width: 450px;
 }
 
 /*
@@ -279,12 +279,7 @@ CreatureLab
 
 .creatureImage {
     border: 1px solid #1a2023;
-    width: 17em;
-}
-
-.creatureImageWide {
-    border: 1px solid #1a2023;
-    width: 25em;
+    width: 300px;
 }
 
 /*

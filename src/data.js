@@ -15,7 +15,7 @@ export const projects = [
         description:
             "My New Media Capstone project. Web based app built for Imagine RIT.",
         learned: "",
-        image: "creaturelab-thumb.png",
+        image: "/creaturelab-thumb.png",
         link: "/project-creature",
         key: 1,
     },
@@ -24,7 +24,7 @@ export const projects = [
         subtitle: "Xamarin Android App",
         description:
             "Counter game made in XAML Forms.",
-        image: "spudclicker-thumb2.png",
+        image: "/spudclicker-thumb2.png",
         link: "/project-spud",
         key: 2,
     },
