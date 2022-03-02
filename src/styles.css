@@ -251,7 +251,7 @@ RCV
 }
 
 .rcvDiv {
-    width: 45%;
+    width: 60%;
     margin: auto;
     padding-top: 50px;
 
@@ -271,7 +271,7 @@ RCV
 CreatureLab
 */
 .creatureDiv {
-    width: 45%;
+    width: 60%;
     margin: auto;
     padding-top: 50px;
 
@@ -286,7 +286,7 @@ CreatureLab
 SpudClicker
 */
 .spudDiv {
-    width: 45%;
+    width: 60%;
     margin: auto;
     padding-top: 50px;
 
