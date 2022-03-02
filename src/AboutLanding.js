@@ -16,7 +16,7 @@ const AboutLanding = () => {
                     <li>UI/UX</li>
                     <li>Web and Mobile Design</li>
                     </ol>
-                    <Link to="/about">Learn More</Link>
+
                 </div>
             </div>
 
